@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MindSpring",
-    "slug": "mindspring",
+    "slug": "nextn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,20 +30,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-google-mobile-ads",
-        {
-          "androidAdMobAppId": "ca-app-pub-xxxxxxxxxxxxxxxx",
-          "iosAdMobAppId": "ca-app-pub-xxxxxxxxxxxxxxxx"
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "ea59e0df-0c04-4fdc-80d7-3dbf0cd844db"
       }
     },
-    "owner": "KikaniBansari"
+    "owner": "bansarik"
   }
 }
