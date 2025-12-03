@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "MindSpring",
+    "slug": "mindspring",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f5f1e8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.mindspring.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f5f1e8"
+      },
+      "package": "com.mindspring.app",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-google-mobile-ads",
+        {
+          "androidAdMobAppId": "ca-app-pub-xxxxxxxxxxxxxxxx",
+          "iosAdMobAppId": "ca-app-pub-xxxxxxxxxxxxxxxx"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ea59e0df-0c04-4fdc-80d7-3dbf0cd844db"
+      }
+    },
+    "owner": "KikaniBansari"
+  }
+}
