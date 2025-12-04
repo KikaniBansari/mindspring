@@ -1,8 +1,11 @@
 {
   "expo": {
     "name": "MindSpring",
-    "slug": "nextn",
+    "slug": "mindspring",
     "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,8 +18,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTabletMode": true,
-      "bundleIdentifier": "com.mindspring.app"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindspring.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,6 +34,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "mindspring",
     "extra": {
       "eas": {
         "projectId": "ea59e0df-0c04-4fdc-80d7-3dbf0cd844db"
